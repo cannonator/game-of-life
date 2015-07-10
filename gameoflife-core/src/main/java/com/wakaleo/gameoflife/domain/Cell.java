@@ -1,6 +1,6 @@
 package com.wakaleo.gameoflife.domain;
 public enum Cell {
-LIVE_CELL("+"), DEAD_CELL(".");
+LIVE_CELL("*"), DEAD_CELL(".");
 private String symbol;
 private Cell(String symbol) {
 this.symbol = symbol;
@@ -16,6 +16,7 @@ if (cell.symbol.equals(symbol)) {
 cellRepresentedBySymbol = cell;
 break;
 }
+29
 }
 return cellRepresentedBySymbol;
 }
@@ -23,5 +24,3 @@ public String getSymbol() {
 return symbol;
 }
 }
-
-//test5
