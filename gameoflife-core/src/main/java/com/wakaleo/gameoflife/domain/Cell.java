@@ -16,7 +16,6 @@ if (cell.symbol.equals(symbol)) {
 cellRepresentedBySymbol = cell;
 break;
 }
-29
 }
 return cellRepresentedBySymbol;
 }
@@ -25,4 +24,3 @@ return symbol;
 }
 }
 
-// test 7
